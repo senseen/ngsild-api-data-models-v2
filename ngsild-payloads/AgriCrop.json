@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/senseen/ngsild-api-data-models/main/jsonld-contexts/scanSmartMeter-compound.jsonld"
+        "https://raw.githubusercontent.com/senseen/ngsild-api-data-models-v2/main/jsonld-contexts/scanSmartMeter-compound.jsonld"
     ],
     "id": "urn:ngsi-ld:AgriCrop:nameOrganization:nameProduct:uuidAgriCrop",
     "type": "AgriCrop",
