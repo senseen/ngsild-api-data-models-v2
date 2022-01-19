@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/senseen/ngsild-api-data-models/main/jsonld-contexts/scanSmartMeter-compound.jsonld"
+    ],
+    "id": "urn:ngsi-ld:Organization:nameOrganization",
+    "type": "Organization",
+    "siteWeb": {
+        "type": "Property",
+        "value": "www.senseen.io"
+    },
+    "name": {
+        "type": "Property",
+        "value": "Senseen"
+    },
+    "hasPersonAdmin":{
+        "type":"Relationship",
+        "object":"urn:ngsi-ld:Person:nameOrganization:uuidPerson"
+    },
+    "hasAgriCrop":{
+        "type":"Relationship",
+        "object":["urn:ngsi-ld:AgriCrop:nameOrganization:nameProduct:uuidAgriCrop"]
+    },
+    "hasDevice":{
+        "type":"Relationship",
+        "object":["urn:ngsi-ld:Device:nameOrganization:numDevice"]
+    },
+    "hasPerson":{
+        "type":"Relationship",
+        "object":["urn:ngsi-ld:Person:nameOrganization:uuidPerson"]
+    }
+}

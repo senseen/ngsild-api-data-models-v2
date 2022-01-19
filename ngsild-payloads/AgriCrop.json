@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/senseen/ngsild-api-data-models/main/jsonld-contexts/scanSmartMeter-compound.jsonld"
+    ],
+    "id": "urn:ngsi-ld:AgriCrop:nameOrganization:nameProduct:uuidAgriCrop",
+    "type": "AgriCrop",
+    "description": {
+        "type": "Property",
+        "value": "A farm producing wheat"
+    },
+    "name": {
+        "type": "Property",
+        "value": "wheat"
+    },
+    "seedingDate":{
+        "type": "Property",
+        "value": "2021-02-19T09:13:14Z"
+    },
+    "hasAgriCropRecord":{
+        "type":"Relationship",
+        "object":"urn:ngsi-ld:AgriCropRecord:nameOrganization:nameProduct:uuidAgriCropAgriCropRecord"
+    },
+    "belongsTo":{
+        "type":"Relationship",
+        "object":"urn:ngsi-ld:Organization:nameOrganization"
+    }
+}

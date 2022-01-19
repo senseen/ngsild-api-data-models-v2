@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "AgriCropRecord": "https://uri.fiware.org/ns/data-models#AgriCropRecord",
+    "Person": "https://uri.fiware.org/ns/data-models#Person",
+    "absorbance": "https://uri.fiware.org/ns/data-models#absorbance",
+    "redox": "https://uri.fiware.org/ns/data-models#redox",
+    "cityName": "https://uri.fiware.org/ns/data-models#cityName",
+    "lastName": "https://uri.fiware.org/ns/data-models#lastName",
+    "firstName": "https://uri.fiware.org/ns/data-models#firstName",
+    "addressLocality": "https://uri.fiware.org/ns/data-models#addressLocality",
+    "addressCountry": "https://uri.fiware.org/ns/data-models#addressCountry",
+    "addressStreet": "https://uri.fiware.org/ns/data-models#addressStreet",
+    "tempLamp": "https://uri.fiware.org/ns/data-models#tempLamp",
+    "MLProcessing": "https://uri.fiware.org/ns/data-models#MLProcessing",
+    "SubscriptionQuery": "https://uri.fiware.org/ns/data-models#SubscriptionQuery",
+    "brix": "https://uri.fiware.org/ns/data-models#brix",
+    "specificAccessPolicy": "https://ontology.eglobalmark.com/egm#specificAccessPolicy",
+    "reference": "https://uri.fiware.org/ns/data-models#reference",
+    "hasAgriCropRecord": "https://uri.fiware.org/ns/data-models#reference",
+    "measuredBy": "https://uri.fiware.org/ns/data-models#measuredBy",
+    "seedingDate": "https://uri.fiware.org/ns/data-models#seedingDate",
+    "siteWeb": "https://uri.fiware.org/ns/data-models#siteWeb",
+    "hasPersonAdmin": "https://uri.fiware.org/ns/data-models#hasPersonAdmin",
+    "isAdmin": "https://uri.fiware.org/ns/data-models#isAdmin",
+    "hasPerson": "https://uri.fiware.org/ns/data-models#hasPerson"
+  }
