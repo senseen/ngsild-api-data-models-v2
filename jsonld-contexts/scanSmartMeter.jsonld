@@ -19,11 +19,11 @@
     "siteWeb": "https://uri.fiware.org/ns/data-models#siteWeb",
     "isAdmin": "https://uri.fiware.org/ns/data-models#isAdmin",
     "measuredBy": {
-      "@id": "https://uri.etsi.org/ngsi-ld/default-context/measuredBy",
+      "@id": "https://uri.fiware.org/ns/data-models#measuredBy",
       "@type": "@id"
     },
     "observedBy": {
-      "@id": "https://uri.etsi.org/ngsi-ld/default-context/observedBy",
+      "@id": "https://uri.fiware.org/ns/data-models#observedBy",
       "@type": "@id"
     },
     "hasPerson": {
