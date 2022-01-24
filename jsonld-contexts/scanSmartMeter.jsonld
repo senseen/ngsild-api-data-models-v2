@@ -16,11 +16,30 @@
     "brix": "https://uri.fiware.org/ns/data-models#brix",
     "specificAccessPolicy": "https://ontology.eglobalmark.com/egm#specificAccessPolicy",
     "reference": "https://uri.fiware.org/ns/data-models#reference",
-    "hasAgriCropRecord": "https://uri.fiware.org/ns/data-models#reference",
-    "measuredBy": "https://uri.fiware.org/ns/data-models#measuredBy",
-    "seedingDate": "https://uri.fiware.org/ns/data-models#seedingDate",
     "siteWeb": "https://uri.fiware.org/ns/data-models#siteWeb",
-    "hasPersonAdmin": "https://uri.fiware.org/ns/data-models#hasPersonAdmin",
     "isAdmin": "https://uri.fiware.org/ns/data-models#isAdmin",
-    "hasPerson": "https://uri.fiware.org/ns/data-models#hasPerson"
+    "measuredBy": {
+      "@id": "https://uri.etsi.org/ngsi-ld/measuredBy",
+      "@type": "@id"
+    },
+    "observedBy": {
+      "@id": "https://uri.etsi.org/ngsi-ld/observedBy",
+      "@type": "@id"
+    },
+    "hasPerson": {
+      "@id": "https://uri.etsi.org/ngsi-ld/hasPerson",
+      "@type": "@id"
+    },
+    "hasPersonAdmin": {
+      "@id": "https://uri.etsi.org/ngsi-ld/hasPersonAdmin",
+      "@type": "@id"
+    },
+    "hasAgriCropRecord": {
+      "@id": "https://uri.etsi.org/ngsi-ld/hasAgriCropRecord",
+      "@type": "@id"
+    },
+    "seedingDate": {
+      "@id": "https://uri.etsi.org/ngsi-ld/seedingDate",
+      "@type": "DateTime"
+    }
   }
