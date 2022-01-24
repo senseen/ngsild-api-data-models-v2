@@ -19,27 +19,27 @@
     "siteWeb": "https://uri.fiware.org/ns/data-models#siteWeb",
     "isAdmin": "https://uri.fiware.org/ns/data-models#isAdmin",
     "measuredBy": {
-      "@id": "https://uri.etsi.org/ngsi-ld/measuredBy",
+      "@id": "https://uri.etsi.org/ngsi-ld/default-context/measuredBy",
       "@type": "@id"
     },
     "observedBy": {
-      "@id": "https://uri.etsi.org/ngsi-ld/observedBy",
+      "@id": "https://uri.etsi.org/ngsi-ld/default-context/observedBy",
       "@type": "@id"
     },
     "hasPerson": {
-      "@id": "https://uri.etsi.org/ngsi-ld/hasPerson",
+      "@id": "https://uri.fiware.org/ns/data-models#hasPerson",
       "@type": "@id"
     },
     "hasPersonAdmin": {
-      "@id": "https://uri.etsi.org/ngsi-ld/hasPersonAdmin",
+      "@id": "https://uri.fiware.org/ns/data-models#hasPersonAdmin",
       "@type": "@id"
     },
     "hasAgriCropRecord": {
-      "@id": "https://uri.etsi.org/ngsi-ld/hasAgriCropRecord",
+      "@id": "https://uri.fiware.org/ns/data-models#hasAgriCropRecord",
       "@type": "@id"
     },
     "seedingDate": {
-      "@id": "https://uri.etsi.org/ngsi-ld/seedingDate",
+      "@id": "https://uri.fiware.org/ns/data-models#seedingDate",
       "@type": "DateTime"
     }
   }
