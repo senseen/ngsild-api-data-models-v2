@@ -18,10 +18,8 @@
     "reference": "https://uri.fiware.org/ns/data-models#reference",
     "siteWeb": "https://uri.fiware.org/ns/data-models#siteWeb",
     "isAdmin": "https://uri.fiware.org/ns/data-models#isAdmin",
-    "measuredBy": {
-      "@id": "https://uri.etsi.org/ngsi-ld/measuredBy",
-      "@type": "@id"
-    },
+    "measuredBy": "https://uri.fiware.org/ns/data-models#measuredBy",
+
     "observedBy": "https://uri.fiware.org/ns/data-models#observedBy",
     "hasPerson": {
       "@id": "https://uri.fiware.org/ns/data-models#hasPerson",
