@@ -35,9 +35,6 @@
       "@id": "https://uri.fiware.org/ns/data-models#hasAgriCropRecord",
       "@type": "@id"
     },
-    "seedingDate": {
-      "@id": "https://uri.fiware.org/ns/data-models#seedingDate",
-      "@type": "DateTime"
-    }
+    "seedingDate": "https://uri.fiware.org/ns/data-models#seedingDate"
   }
 }
