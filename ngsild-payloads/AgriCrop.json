@@ -18,7 +18,12 @@
     },
     "hasAgriCropRecord":{
         "type":"Relationship",
+        "datasetId":"urn:ngsi-ld:Dataset:hasAgriCropRecord:urn:ngsi-ld:AgriCropRecord:nameOrganization:nameProduct:uuidAgriCropAgriCropRecord",
         "object":"urn:ngsi-ld:AgriCropRecord:nameOrganization:nameProduct:uuidAgriCropAgriCropRecord"
+    },
+    "createdBy":{
+        "type":"Relationship",
+        "object":"urn:ngsi-ld:Person:nameOrganization:uuidPerson"
     },
     "belongsTo":{
         "type":"Relationship",

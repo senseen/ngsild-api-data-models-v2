@@ -14,18 +14,22 @@
     },
     "hasPersonAdmin":{
         "type":"Relationship",
+        "datasetId":"urn:ngsi-ld:Dataset:hasPersonAdmin:urn:ngsi-ld:Person:nameOrganization:uuidPerson",
         "object":"urn:ngsi-ld:Person:nameOrganization:uuidPerson"
     },
     "hasAgriCrop":{
         "type":"Relationship",
+        "datasetId":"urn:ngsi-ld:Dataset:hasAgriCropRecord:urn:ngsi-ld:AgriCrop:nameOrganization:nameProduct:uuidAgriCrop",
         "object":["urn:ngsi-ld:AgriCrop:nameOrganization:nameProduct:uuidAgriCrop"]
     },
     "hasDevice":{
         "type":"Relationship",
+        "datasetId":"urn:ngsi-ld:Dataset:hasDevice:urn:ngsi-ld:Device:nameOrganization:numDevice",
         "object":["urn:ngsi-ld:Device:nameOrganization:numDevice"]
     },
     "hasPerson":{
         "type":"Relationship",
+        "datasetId":"urn:ngsi-ld:Dataset:hasPerson:urn:ngsi-ld:Person:nameOrganization:uuidPerson",
         "object":["urn:ngsi-ld:Person:nameOrganization:uuidPerson"]
     }
 }
