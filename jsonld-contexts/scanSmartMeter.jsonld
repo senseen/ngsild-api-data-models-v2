@@ -11,6 +11,7 @@
     "addressCountry": "https://uri.fiware.org/ns/data-models#addressCountry",
     "addressStreet": "https://uri.fiware.org/ns/data-models#addressStreet",
     "tempLamp": "https://uri.fiware.org/ns/data-models#tempLamp",
+    "uriImage": "https://uri.fiware.org/ns/data-models#uriImage",
     "MLProcessing": "https://uri.fiware.org/ns/data-models#MLProcessing",
     "SubscriptionQuery": "https://uri.fiware.org/ns/data-models#SubscriptionQuery",
     "brix": "https://uri.fiware.org/ns/data-models#brix",
